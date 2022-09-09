@@ -1,0 +1,30 @@
+#jumbotron {
+  padding-bottom: 6rem;
+  padding-top: 4rem;
+}
+
+.bg {
+  background: blue;
+  background-size: 60% 100%;
+  width: 800px;
+  height: 550px;
+  border-radius: 0 0 150% 0;
+}
+
+.btn-outline-light {
+  --bs-btn-hover-color: var(--bs-blue);
+}
+
+.lead {
+  font-size: small;
+}
+
+footer {
+  height: 6vh;
+}
+
+#submit {
+  --bs-btn-hover-border-color: var(--bs-blue);
+  --bs-btn-hover-bg: var(--bs-white);
+  --bs-btn-hover-color: var(--bs-blue);
+}
